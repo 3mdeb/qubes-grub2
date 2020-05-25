@@ -60,7 +60,7 @@ verify-sources: import-keys
 .PHONY: clean-sources
 clean-sources:
 ifneq ($(SRC_FILE), None)
-	-rm $(SRC_FILE)
+	-rm $(SRC_FILE) $(SIGN_FILE)
 endif
 
 
