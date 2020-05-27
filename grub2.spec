@@ -383,7 +383,7 @@ GRUB_MODULES="	all_video boot btrfs				\\\
 		mdraid09 mdraid1x minicmd multiboot multiboot2	\\\
 		net normal part_apple part_msdos part_gpt	\\\
 		password_pbkdf2 png reboot			\\\
-		search search_fs_uuid search_fs_file		\\\
+		search search_fs_uuid search_fs_file slaunch	\\\
 		search_label serial sleep syslinuxcfg test tftp	\\\
 		video xfs"					\
 GRUB_MODULES+=%{efi_modules}					\
